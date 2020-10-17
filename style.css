@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    font-family: 'Lobster', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lobster', serif;
+}
+
+.navigation-wrapper {
+    height: 430px;
+    background-color: #d30080;
+    border-bottom: 20px solid white;
+    color: #ffffff;
+    display: flex;
+    padding:  0px 130px;
+    justify-content: space-between;
+}
+
+.left-column {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    justify-content: center;
+    text-align: center;
+    height: 390px;
+    background-color:  #274ce0;
+    color: white;
+    padding: 20px 10px;
+}
+
+.header-styles {
+    font-family: 'Lobster', sans-serif;
+    font-size: 1em;
+}
+
+.center-column {
+   display: grid;
+   align-self: stretch;
+   align-items: center;
+   width: 700px;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   background-color:  #274ce0;
+}
+
+.center-column .logo {
+   display: flex;
+   justify-content: center;
+   align-self: center;
+}
+
+.right-column {
+   display: grid;
+   grid-template-columns:  auto auto auto;
+   justify-content: space-between;
+   justify-content: center;
+   background-color: #274ce0;
+   color: white;
+}
+
+.logo img {
+   width: 275px;
+   height: 100%;
+}
+
+.links-wrapper {
+    display: grid;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link {
+    width: 150px;
+    text-align: center;
+}
+
+.nav-link a {
+   font-family: 'Lobster', sans-serif;
+   color:white;
+   text-decoration: none;
+   transition: 0.5s;
+}
+
+.nav-link a:hover {
+   color:  #d30080;
+   letter-spacing: 2px; 
+}
+
+
+
+.icon {
+  
+}
+
+.icon-mr {
+  
+}
+
+.icon-ml {
+   
+}
+
+.homepage {
+    display: grid;
+    background-image: url(assets/MiddleFood2.jpg);
+    height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-heading {
+    padding: 1px 5px;
+    color:white;
+    width: 1550px;
+    text-align: center;
+    align-self: stretch;
+    border-radius: 2px;
+}
+
+.bottom-heading {
+    color: white;
+    padding: 1px 20px;
+    margin-top: 15px;
+    width:  107px;
+    border-radius: 2px;
+}
+
+.features-section {
+   height: 450px;
+   background-image: url(assets/ProjectLogoClearMultiple.jpg);
+   background-color: #274ce0;
+   border-top: 20px solid white;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: 'Lobster', sans-serif;
+   box-shadow: inset 0px -26px 79px -8px rgba(0,0,0,0.58);
+}
+
+.columns-wrapper {
+    width: 980px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    margin: 1px;
+    text-align: center;
+}
